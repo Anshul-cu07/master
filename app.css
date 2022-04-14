@@ -1,0 +1,50 @@
+#logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+#theme {
+  color: red;
+  width: fit-content;
+  height: fit-content;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(156, 255, 6);
+  font-family: Arial;
+}
+  .navbar a {
+    float: left; 
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ <style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
+</div>
